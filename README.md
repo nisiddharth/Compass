@@ -13,14 +13,21 @@ No other language support.
 
 ## Screenshots
 #### In dark mode with FlashLight On
-![Screenshot](Screenshots/Dark_On.jpg?raw=true)
+![Screenshot](https://github.com/nisiddharth/Compass/raw/master/Screenshots/Dark_On.jpg?raw=true)
 
 #### In light mode with FlashLight On
-![Screenshot](Screenshots/Light_On.jpg?raw=true)
+![Screenshot](https://github.com/nisiddharth/Compass/raw/master/Screenshots/Light_On.jpg?raw=true)
 
 ## To try your hands on the app
+Option 1:
+
+Use the GitHub releases feature to get [signed APK](https://github.com/nisiddharth/Compass/releases/tag/1.0). Just download and install.
+
+
+Option 2:
+
 Clone this project and build it in Android Studio.
 
 
-Thank You!
+### Thank You!
 ... and one thing more, you can always help in taking this app to production level. Pull requests are welcomed!
