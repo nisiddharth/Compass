@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Compass</string>
+    <string name="compassDesc">An image showing the 4 Cardinal Directions along with some other middle directions</string>
+</resources>
