@@ -12,11 +12,10 @@ Made while learning how to sign apps and how to deploy them to Google Play Store
 No other language support.
 
 ## Screenshots
-#### In dark mode with FlashLight On
-![Screenshot](https://github.com/nisiddharth/Compass/raw/master/Screenshots/Dark_On.jpg?raw=true)
 
-#### In light mode with FlashLight On
-![Screenshot](https://github.com/nisiddharth/Compass/raw/master/Screenshots/Light_On.jpg?raw=true)
+|   |   |
+|---|---|
+| In dark mode with FlashLight On ![Screenshot](https://github.com/nisiddharth/Compass/raw/master/Screenshots/Dark_On.jpg?raw=true) | In light mode with FlashLight On ![Screenshot](https://github.com/nisiddharth/Compass/raw/master/Screenshots/Light_On.jpg?raw=true) |
 
 ## To try your hands on the app
 Option 1:
