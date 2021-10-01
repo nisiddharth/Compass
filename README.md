@@ -11,22 +11,30 @@ Made while learning how to sign apps and how to deploy them to Google Play Store
 
 No other language support.
 
+## Process flow of the App
+
+1. User can on the flashlight with the provided button on front screen.
+2. User can see compass reading, which includes Azimuth, Pitch and Roll.
+3. For better accuracy user needs to rotate the phone in figure of 8 several times to improve sensor accuracy.
+
+## Features of the App
+
+1. Flashlight
+2. Compass
+3. Dark Mode support
+
+## To try your hands on the project
+Either get the latest APK from release: https://bit.ly/2WtYBZX
+
+Or;
+1. Clone the repository
+2. Build the app, deploy to your device and you are good to go.
+
 ## Screenshots
 
 |   |   |
 |---|---|
 | In dark mode with FlashLight On ![Screenshot](https://github.com/nisiddharth/Compass/raw/master/Screenshots/Dark_On.jpg?raw=true) | In light mode with FlashLight On ![Screenshot](https://github.com/nisiddharth/Compass/raw/master/Screenshots/Light_On.jpg?raw=true) |
-
-## To try your hands on the app
-Option 1:
-
-Use the GitHub releases feature to get [signed APK](https://github.com/nisiddharth/Compass/releases/tag/1.0). Just download and install.
-
-
-Option 2:
-
-Clone this project and build it in Android Studio.
-
 
 ### Thank You!
 ... and one thing more, you can always help in taking this app to production level. Pull requests are welcomed!
