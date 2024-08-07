@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mainConstraint"
     android:layout_width="match_parent"
+    android:animateLayoutChanges="true"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="one.nishchal.compass.MainActivity">
 
     <TextView
         android:id="@+id/details"
@@ -47,7 +48,7 @@
         android:layout_marginTop="10dp"
         android:autoLink="web"
         android:gravity="center_horizontal"
-        android:text="© 2020, Nishchal Siddharth Pandey\nhttps://github.com/nisiddharth"
+        android:text="Made by Nishchal Siddharth in 2024\nhttps://nishchal.one/Compass/"
         android:textAlignment="center"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

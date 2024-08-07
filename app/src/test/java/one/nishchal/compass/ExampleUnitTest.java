@@ -1,4 +1,4 @@
-package com.nsp.compass;
+package one.nishchal.compass;
 
 import org.junit.Test;
 

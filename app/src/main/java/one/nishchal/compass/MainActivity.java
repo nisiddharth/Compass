@@ -1,7 +1,7 @@
-package com.nsp.compass;
+package one.nishchal.compass;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
-import android.hardware.Camera;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -32,9 +32,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private ToggleButton flashBtn;
     private float[] gravity;
     private float[] geomagnetic;
-    private String azimuth = "0";
-    private String pitch = "0";
-    private String roll = "0";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         try {
             cameraId = cameraManager.getCameraIdList()[0];
         } catch (CameraAccessException e) {
-            e.printStackTrace();
+            // do nothing
         }
         flashBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -64,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                         flashBtn.setChecked(false);
                     }
                 } catch (CameraAccessException e) {
-                    e.printStackTrace();
+                    // do nothing
                 }
             }
         });
@@ -89,6 +86,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         sensorManager.registerListener(this, magnetometer, SensorManager.SENSOR_DELAY_UI);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
         if (sensorEvent.sensor.getType() == Sensor.TYPE_ACCELEROMETER)
@@ -103,9 +101,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 SensorManager.getOrientation(R, orientation);
                 DecimalFormat df = new DecimalFormat();
                 df.setMaximumFractionDigits(2);
-                azimuth = df.format(orientation[0] * 360 / (2 * 3.14159f));
-                pitch = df.format(orientation[1] * 360 / (2 * 3.14159f));
-                roll = df.format(orientation[2] * 360 / (2 * 3.14159f));
+                String azimuth = df.format(orientation[0] * 360 / (2 * 3.14159f));
+                String pitch = df.format(orientation[1] * 360 / (2 * 3.14159f));
+                String roll = df.format(orientation[2] * 360 / (2 * 3.14159f));
                 compass.setRotation(-Float.parseFloat(azimuth));
                 details.setText("Azimuth: " + azimuth + "°\n\nPitch: " + pitch + "°\n\nRoll: " + roll + "°");
             }

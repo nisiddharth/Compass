@@ -7,9 +7,9 @@ A simple Compass Android app with FlashLight.
 Yes! It has nothing else. Just a damn Compass.
 (And supports Android 10+ auto dark mode).
 
-Made while learning how to sign apps and how to deploy them to Google Play Store (unfortunately didn't did the 2nd task as there is a $25 charge for registering as a developer on Google Play Developer Console.)
-
-No other language support.
+Made while learning how to sign apps and how to deploy them to Google Play Store.
+    
+No localization support.
 
 ## Process flow of the App
 
@@ -24,9 +24,6 @@ No other language support.
 3. Dark Mode support
 
 ## To try your hands on the project
-Either get the latest APK from release: https://bit.ly/2WtYBZX
-
-Or;
 1. Clone the repository
 2. Build the app, deploy to your device and you are good to go.
 
@@ -36,5 +33,8 @@ Or;
 |---|---|
 | In dark mode with FlashLight On ![Screenshot](https://github.com/nisiddharth/Compass/raw/master/Screenshots/Dark_On.jpg?raw=true) | In light mode with FlashLight On ![Screenshot](https://github.com/nisiddharth/Compass/raw/master/Screenshots/Light_On.jpg?raw=true) |
 
+### Privacy policy
+[Read here](./privacy-policy/)
+
 ### Thank You!
-... and one thing more, you can always help in taking this app to production level. Pull requests are welcomed!
+... and one thing more, you can always contribute here. Pull requests are welcomed!
