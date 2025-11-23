@@ -5,6 +5,7 @@
     android:id="@+id/mainConstraint"
     android:layout_width="match_parent"
     android:animateLayoutChanges="true"
+    android:fitsSystemWindows="true"
     android:layout_height="match_parent"
     tools:context="one.nishchal.compass.MainActivity">
 
